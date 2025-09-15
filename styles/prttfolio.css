@@ -1,3 +1,4 @@
+
 /* fonts */
 
 .open-sans-normal {
@@ -22,14 +23,25 @@
     color: white;
     padding: 18px 36px;
     border: none;
+}
 
+.btn-gap{
+    padding: 30px;
+}
+
+/* header style */
+.header{
+    background-image: url("/images/developer.png"), url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
 }
 /* nav style */
 nav{
     display: flex;
      align-items: center;
     justify-content: space-between;
-    margin: 50px 230px;
+    margin: 0 50px 230px;
 }
 
 .nav-title{ 
@@ -50,4 +62,33 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* banner style */
+
+ .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+} 
+.banner-content{
+    width: 585px;
+}
+.sub-title{
+    font-size: 45px;
+    width: 600;
+}
+
+.title{
+    font-size: 85px;
+    width: 700;
+}
+
+.title-desxrption{
+    font-size: 18px;
+    width: 400;
+}
+
+.img-tin{
+    width: 585px;
 }
