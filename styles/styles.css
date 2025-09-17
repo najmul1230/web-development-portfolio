@@ -1,0 +1,147 @@
+
+/* font style */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* sheyrd style */
+.seconder-bg{
+    background-color: #FFF8F3;
+}
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+/* header style */
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 230px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px; 
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+
+/* banner style */
+.banner{
+   display: flex;
+   justify-content: space-between;
+   margin: 0 32px 0 230px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-greting{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.descrption{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-profil-pic{
+    width: 585;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    text-align: center;
+    padding: 140px 157px;
+    margin-top: 130px;
+}
+
+.about-marr{
+    background-color: #ffff;
+    border: 1px solid black;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.item-description{
+    font-size: 18px;
+    font-weight: bold;
+    color: #474747;
+}
